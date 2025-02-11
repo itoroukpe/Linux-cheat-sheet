@@ -86,4 +86,4 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 
 ---
 
-This **Linux Commands Cheat Sheet** provides quick access to essential commands, making it easy to reference for system administration, development, and troubleshooting. 🚀 Let me know if you need any modifications!
+This **Linux Commands Cheat Sheet** provides quick access to essential commands, making it easy to reference for system administration, development, and troubleshooting. 
