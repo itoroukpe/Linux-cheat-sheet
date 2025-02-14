@@ -156,8 +156,9 @@ Alice is a DevOps engineer working on a new project. She needs to set up a struc
 Through this scenario, Alice will demonstrate proficiency in essential Linux file management commands, including `cd`, `mkdir`, `touch`, `ls`, `chmod`, `mv`, `cp`, `rm`, and `cat`. These commands are fundamental for efficient file and directory management in a Linux environment.
 
 **Note:**
-
-It's crucial to execute these commands carefully, especially those that modify or delete files and directories. Always ensure you're operating in the correct directory and that you have backups of important data before performing operations that cannot be undone. 
+```
+It's crucial to execute these commands carefully, especially those that modify or delete files and directories. Always ensure you're operating in the correct directory and that you have backups of important data before performing operations that cannot be undone.
+```
 ---
 **Scenario: File Permission**
 
