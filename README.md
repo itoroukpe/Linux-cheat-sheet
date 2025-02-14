@@ -36,7 +36,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `pkill` | Kill process by name | `pkill firefox` |
 | | `bg` | Resume a suspended process in the background | `bg %1` |
 | | `fg` | Bring background process to foreground | `fg %1` |
-| **Disk Usage** | `df` | Show disk usage | `df -h` (Human-readable) |
+| **[Disk Usage](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/disk-usage.md)** | `df` | Show disk usage | `df -h` (Human-readable) |
 | | `du` | Show directory size | `du -sh /home/user` |
 | | `mount` | Mount a filesystem | `mount /dev/sdb1 /mnt/usb` |
 | | `umount` | Unmount a filesystem | `umount /mnt/usb` |
