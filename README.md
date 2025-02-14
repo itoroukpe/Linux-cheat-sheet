@@ -57,7 +57,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `usermod` | Modify a user | `usermod -aG sudo username` |
 | | `deluser` | Delete a user | `deluser username` |
 | | `groups` | Show user groups | `groups username` |
-| **Archiving & Compression** | `tar` | Archive files | `tar -cvf archive.tar files/` |
+| **[Archiving & Compression](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/archiving-n-compression.md)** | `tar` | Archive files | `tar -cvf archive.tar files/` |
 | | `tar` | Extract archive | `tar -xvf archive.tar` |
 | | `gzip` | Compress file | `gzip file.txt` |
 | | `gunzip` | Decompress file | `gunzip file.txt.gz` |
