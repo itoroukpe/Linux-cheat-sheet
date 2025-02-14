@@ -79,7 +79,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | **[File Searching](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/file-searching.md)** | `grep` | Search for text in files | `grep "error" logfile.log` |
 | | `sed` | Stream editor for modifying text | `sed 's/old/new/g' file.txt` |
 | | `awk` | Process and analyze text files | `awk '{print $1}' file.txt` |
-| **Shutdown & Reboot** | `shutdown` | Shut down system | `shutdown -h now` |
+| **[Shutdown & Reboot](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/shutdown-n-reboot.md)** | `shutdown` | Shut down system | `shutdown -h now` |
 | | `reboot` | Reboot system | `reboot` |
 | | `halt` | Halt system | `halt` |
 | | `poweroff` | Power off system | `poweroff` |
