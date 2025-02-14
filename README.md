@@ -29,7 +29,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `head` | Display first 10 lines | `head file.txt` |
 | | `tail` | Display last 10 lines | `tail file.txt` |
 | | `diff` | Compare two files | `diff file1.txt file2.txt` |
-| **Process Management** | `ps` | Show running processes | `ps aux` |
+| **[Process Management](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/process-management.md)** | `ps` | Show running processes | `ps aux` |
 | | `top` | Display live system processes | `top` |
 | | `htop` | Interactive process viewer (if installed) | `htop` |
 | | `kill` | Kill a process by PID | `kill 1234` |
