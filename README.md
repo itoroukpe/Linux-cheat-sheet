@@ -49,7 +49,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `ss` | Show active network connections | `ss -tulnp` |
 | | `scp` | Securely copy files over SSH | `scp file.txt user@server:/path/` |
 | | `rsync` | Sync files and directories | `rsync -av /source/ /destination/` |
-| **User Management** | `whoami` | Show current user | `whoami` |
+| **[User Management](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/user-management.md)** | `whoami` | Show current user | `whoami` |
 | | `who` | Show logged-in users | `who` |
 | | `id` | Show user ID and group ID | `id username` |
 | | `adduser` | Add a new user | `adduser newuser` |
