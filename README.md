@@ -76,7 +76,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | **[Job Scheduling](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/job-scheduling.md)** | `cron` | Schedule recurring tasks | `crontab -e` |
 | | `crontab -l` | List scheduled cron jobs | `crontab -l` |
 | | `at` | Schedule a one-time job | `echo "ls -l" | at 10:30` |
-| **File Searching** | `grep` | Search for text in files | `grep "error" logfile.log` |
+| **[File Searching](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/file-searching.md)** | `grep` | Search for text in files | `grep "error" logfile.log` |
 | | `sed` | Stream editor for modifying text | `sed 's/old/new/g' file.txt` |
 | | `awk` | Process and analyze text files | `awk '{print $1}' file.txt` |
 | **Shutdown & Reboot** | `shutdown` | Shut down system | `shutdown -h now` |
