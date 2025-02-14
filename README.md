@@ -217,8 +217,9 @@ Document the commands used for each task and provide a brief explanation of thei
 - [Linux File Permissions Explained](https://www.redhat.com/en/blog/linux-file-permissions-explained)
 - [Understanding Linux File Permissions](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-understanding-linux-file-permissions)
 - [Setuid, Setgid, and Sticky Bits](https://en.wikipedia.org/wiki/Setuid)
-
-*Note: Ensure that all commands are tested in a safe environment to prevent unintended system changes.* 
+```
+*Note: Ensure that all commands are tested in a safe environment to prevent unintended system changes.*
+```
 ---
 **Answers to File Permission Assignment**
 To address the scenario where Melinda needs to manage file permissions for collaborative projects, here are the detailed steps and commands to achieve the desired configuration:
@@ -345,6 +346,7 @@ By setting these permissions and ownerships, Melinda ensures that:
 - In the `scripts` directory, scripts can be executed by all group members, but only modified by the owner or `melinda`.
 
 This configuration minimizes accidental modifications or deletions, maintaining data integrity and workflow efficiency.
-
-*Note:* Ensure that all commands are executed with appropriate privileges, and always verify the effects of permission changes in a controlled environment before applying them to production systems. 
+```
+*Note:* Ensure that all commands are executed with appropriate privileges, and always verify the effects of permission changes in a controlled environment before applying them to production systems.
+```
 ---
