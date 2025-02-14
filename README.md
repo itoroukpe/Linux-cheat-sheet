@@ -73,7 +73,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `iostat` | Show CPU & disk I/O stats | `iostat` |
 | | `dmesg` | Show system boot messages | `dmesg | less` |
 | | `journalctl` | View system logs | `journalctl -xe` |
-| **Job Scheduling** | `cron` | Schedule recurring tasks | `crontab -e` |
+| **[Job Scheduling](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/job-scheduling.md)** | `cron` | Schedule recurring tasks | `crontab -e` |
 | | `crontab -l` | List scheduled cron jobs | `crontab -l` |
 | | `at` | Schedule a one-time job | `echo "ls -l" | at 10:30` |
 | **File Searching** | `grep` | Search for text in files | `grep "error" logfile.log` |
