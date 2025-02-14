@@ -63,7 +63,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `gunzip` | Decompress file | `gunzip file.txt.gz` |
 | | `zip` | Compress into .zip | `zip archive.zip file1 file2` |
 | | `unzip` | Extract .zip file | `unzip archive.zip` |
-| **Package Management** | `apt` | Manage Debian-based packages | `apt install package` |
+| **[Package Management](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/package-management.md)** | `apt` | Manage Debian-based packages | `apt install package` |
 | | `yum` | Manage RHEL-based packages | `yum install package` |
 | | `dnf` | Modern RHEL package manager | `dnf install package` |
 | | `rpm` | Install RPM package | `rpm -ivh package.rpm` |
