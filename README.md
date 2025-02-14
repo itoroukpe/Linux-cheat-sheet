@@ -8,7 +8,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 
 | **Category**     | **Command**              | **Description** | **Example** |
 |-----------------|-------------------------|----------------|-------------|
-| **File Management** | `ls` | List files and directories | `ls -la` (List all with details) |
+| **[File Management](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/file-management.md)** | `ls` | List files and directories | `ls -la` (List all with details) |
 | | `cd` | Change directory | `cd /home/user` |
 | | `pwd` | Print current directory | `pwd` |
 | | `mkdir` | Create a new directory | `mkdir new_folder` |
