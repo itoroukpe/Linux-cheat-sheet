@@ -20,7 +20,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `find` | Search for files | `find /home -name "*.txt"` |
 | | `locate` | Find files using a database | `locate index.html` |
 | | `stat` | Display detailed information about a file | `stat myfile.txt` |
-| **File Permissions** | `chmod` | Change file permissions | `chmod 755 script.sh` |
+| **[File Permissions](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/file-permission.md)** | `chmod` | Change file permissions | `chmod 755 script.sh` |
 | | `chown` | Change file ownership | `chown user:group file.txt` |
 | | `chgrp` | Change group ownership | `chgrp developers file.txt` |
 | **File Viewing** | `cat` | View contents of a file | `cat file.txt` |
