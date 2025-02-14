@@ -40,7 +40,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `du` | Show directory size | `du -sh /home/user` |
 | | `mount` | Mount a filesystem | `mount /dev/sdb1 /mnt/usb` |
 | | `umount` | Unmount a filesystem | `umount /mnt/usb` |
-| **Networking** | `ip a` | Display IP address | `ip a` |
+| **[Networking](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/networking.md)** | `ip a` | Display IP address | `ip a` |
 | | `ifconfig` | Show network interfaces (deprecated) | `ifconfig eth0` |
 | | `ping` | Test network connectivity | `ping google.com` |
 | | `wget` | Download a file | `wget http://example.com/file.zip` |
