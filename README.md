@@ -67,7 +67,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `yum` | Manage RHEL-based packages | `yum install package` |
 | | `dnf` | Modern RHEL package manager | `dnf install package` |
 | | `rpm` | Install RPM package | `rpm -ivh package.rpm` |
-| **System Monitoring** | `uptime` | Show system uptime | `uptime` |
+| **[System Monitoring](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/system-monitoring.md)** | `uptime` | Show system uptime | `uptime` |
 | | `free` | Show memory usage | `free -h` |
 | | `vmstat` | Show system performance stats | `vmstat 5` |
 | | `iostat` | Show CPU & disk I/O stats | `iostat` |
