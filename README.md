@@ -350,7 +350,27 @@ This configuration minimizes accidental modifications or deletions, maintaining 
 *Note:* Ensure that all commands are executed with appropriate privileges, and always verify the effects of permission changes in a controlled environment before applying them to production systems.
 ```
 ---
-**Scenario:**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+**Scenario: Package Management**
 
 John is working on a Linux-based project that requires the use of specific file management tools. He needs to perform various tasks such as searching for files, compressing directories, and monitoring disk usage. However, he discovers that some of the necessary utilities are not installed on his system. To resolve this, John decides to use Linux package management commands to install the required tools.
 
@@ -381,8 +401,8 @@ John is working on a Linux-based project that requires the use of specific file 
 **Note:** This assignment aims to assess your proficiency in using Linux package management tools to manage software installations, updates, and removals effectively.
 ```
 ---
-Answer
-**Assumptions:**
+
+**Answer to Package Management**
 
 For this scenario, we'll assume John is using a Debian-based Linux distribution, such as Ubuntu. The package management commands provided will be specific to APT, the package manager used in Debian-based systems.
 
