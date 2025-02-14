@@ -23,7 +23,7 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | **[File Permissions](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/file-permission.md)** | `chmod` | Change file permissions | `chmod 755 script.sh` |
 | | `chown` | Change file ownership | `chown user:group file.txt` |
 | | `chgrp` | Change group ownership | `chgrp developers file.txt` |
-| **File Viewing** | `cat` | View contents of a file | `cat file.txt` |
+| **[File Viewing](https://github.com/itoroukpe/Linux-cheat-sheet/blob/main/file-viewing.md)** | `cat` | View contents of a file | `cat file.txt` |
 | | `tac` | View contents in reverse order | `tac file.txt` |
 | | `less` | View file page by page | `less longfile.txt` |
 | | `head` | Display first 10 lines | `head file.txt` |
