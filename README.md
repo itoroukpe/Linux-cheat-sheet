@@ -85,6 +85,16 @@ Here’s a comprehensive **Linux Commands Cheat Sheet** in tabular format, with 
 | | `poweroff` | Power off system | `poweroff` |
 
 ---
-
+```
 This **Linux Commands Cheat Sheet** provides quick access to essential commands, making it easy to reference for system administration, development, and troubleshooting.
+```
+In Linux, file and directory permissions are represented numerically using the following values:
+
+- **Read (r):** 4
+- **Write (w):** 2
+- **Execute (x):** 1
+
+These values are additive, allowing for combinations of permissions. For example, to assign read (4) and write (2) permissions, you add the values to get 6. This system is commonly used with the `chmod` command to set permissions. Each digit in a three-digit sequence represents the permissions for the owner, group, and others, respectively. For instance, `chmod 755 filename` sets full permissions (read, write, execute) for the owner (7), and read and execute permissions for the group (5) and others (5). citeturn0search0
+
+Understanding these numerical values is essential for managing file permissions effectively in a Linux environment. 
 ---
