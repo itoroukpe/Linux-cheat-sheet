@@ -27,7 +27,7 @@ Here are the answers for all the **Linux command practice questions** on an **Ub
 15. `chown john document.txt`  
 16. `chmod +x backup.sh`  
 17. `chmod 644 notes.txt`  
-18. `755`  
+18. `754`  
 19. `chmod 700 directory_name/`  
 20.  
     - `chmod 777 file.txt` → Full permissions for everyone  
