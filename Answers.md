@@ -48,7 +48,7 @@ Here are the answers for all the **Linux command practice questions** on an **Ub
     - `cat` displays the entire file at once  
     - `less` allows scrolling through the file  
 30. `awk -F ',' '{print $2}' data.csv`  
-
+The awk command is a powerful text-processing tool used in Linux to extract and manipulate text from structured data files such as CSV (Comma-Separated Values) files.
 ---
 
 ### **🔹 User Management**  
