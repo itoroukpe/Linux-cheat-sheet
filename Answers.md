@@ -118,4 +118,100 @@ Here are the answers for all the **Linux command practice questions** on an **Ub
 
 ---
 
-These answers are all **Ubuntu-specific**, but most work on other **Debian-based Linux distributions** too. Let me know if you want any modifications or explanations! 🚀
+### **Using the awk command**
+### **Demonstration of `awk -F ',' '{print $2}' data.csv` in Linux**
+The `awk` command is a powerful text-processing tool used in Linux to extract and manipulate text from structured data files such as CSV (Comma-Separated Values) files.
+
+---
+
+### **Example Use Case**
+Let's assume you have a CSV file called `data.csv` with the following content:
+
+```csv
+ID,Name,Age,City
+1,John,25,New York
+2,Alice,30,Los Angeles
+3,Bob,28,Chicago
+4,Eve,35,Houston
+```
+
+The **goal** is to extract the **second column (`Name`)** from this CSV file.
+
+---
+
+### **Command Breakdown**
+```bash
+awk -F ',' '{print $2}' data.csv
+```
+- **`awk`** → Calls the `awk` command.
+- **`-F ','`** → Specifies the delimiter (field separator) as a comma (`,`).
+- **`{print $2}`** → Prints the second column (`$2` refers to the second field in each row).
+- **`data.csv`** → The input file to process.
+
+---
+
+### **Command Execution**
+Run the command in the terminal:
+```bash
+awk -F ',' '{print $2}' data.csv
+```
+
+### **Output**
+```bash
+Name
+John
+Alice
+Bob
+Eve
+```
+---
+### **Explanation**
+1. **`-F ','`** tells `awk` that the input fields are separated by commas.
+2. **`$2`** represents the second column in each row.
+3. The command prints only the **second column**, which contains the names.
+
+---
+
+### **Modifications and Enhancements**
+- **Skipping the header row**:
+  ```bash
+  awk -F ',' 'NR>1 {print $2}' data.csv
+  ```
+  - **`NR>1`** skips the first row (header).
+  - **Output**:
+    ```bash
+    John
+    Alice
+    Bob
+    Eve
+    ```
+
+- **Displaying names and ages**:
+  ```bash
+  awk -F ',' '{print "Name:", $2, "- Age:", $3}' data.csv
+  ```
+  - **Output**:
+    ```bash
+    Name: Name - Age: Age
+    Name: John - Age: 25
+    Name: Alice - Age: 30
+    Name: Bob - Age: 28
+    Name: Eve - Age: 35
+    ```
+
+- **Filtering only people older than 28**:
+  ```bash
+  awk -F ',' '$3 > 28 {print $2, $3}' data.csv
+  ```
+  - **Output**:
+    ```bash
+    Alice 30
+    Eve 35
+    ```
+
+---
+
+### **Conclusion**
+This `awk` command efficiently extracts the **second column** from a **comma-separated values (CSV) file**. It can be customized further to **filter, format, and process** data dynamically.
+
+
